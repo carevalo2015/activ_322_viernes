@@ -6,7 +6,7 @@ class TestHola(unittest.TestCase):
 	def test_saludo(self):
 		self.assertEqual(
 			saludar(),
-			"Hola Mundo desde DSO"
+			"Hola Mundo DSO"
 		)
 
 if __name__ == "__main__":
