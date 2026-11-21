@@ -1,2 +1,16 @@
-__pycache__ *.pyc .venv .env
+# Entorno virtual
+.venv/
 
+# Archivos temporales Python
+__pycache__/
+*.pyc
+
+# Reportes de seguridad
+reportes-seguridad/
+
+# Archivos locales de inventario
+requirements-lock.txt
+requiremente-lock.txt
+
+# Archivos generados por SonarScanner
+.scannerwork/
